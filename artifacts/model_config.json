@@ -1,0 +1,18 @@
+{
+  "model_name": "Hybrid NN (emb=64, h=256, drop=0.3, wd=0.1)",
+  "architecture": "HybridRecommender",
+  "n_users": 6040,
+  "n_movies": 3883,
+  "n_user_num": 3,
+  "n_movie_num": 40,
+  "emb_dim": 64,
+  "hidden": 256,
+  "dropout": 0.3,
+  "global_mean": 3.5805640502038925,
+  "metrics": {
+    "val_RMSE": 0.8529229102925697,
+    "test_RMSE": 0.8546355557740427,
+    "test_MAE": 0.6679391860961914,
+    "test_R2": 0.4140473008155823
+  }
+}
